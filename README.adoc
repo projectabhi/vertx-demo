@@ -29,3 +29,6 @@ To run your application:
 * https://gitter.im/eclipse-vertx/vertx-users[Vert.x Gitter]
 
 
+To deploy with infinispan cluster
+java -jar target/vertx-demo-1.0.0-SNAPSHOT-fat.jar -cluster -Djava.net.preferIPv4Stack=true -Dhttp.port=8081
+for windows system grant jvm access to "private networks" to make the load balancing work
